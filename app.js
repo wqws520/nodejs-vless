@@ -8,8 +8,8 @@ const {Buffer} = require('buffer');
 const {createServer} = require('http');
 const {WebSocketServer, createWebSocketStream} = require('ws');
 
-const UUID = process.env.UUID || '10889da6-14ea-4cc8-97fa-6c0bc410f121';
-const DOMAIN = process.env.DOMAIN || 'example.com';
+const UUID = process.env.UUID || 'e8b3e18f-68a9-4d58-8b46-6a716870d710';
+const DOMAIN = process.env.DOMAIN || 'wqq.herokuapp.com';
 const PORT = process.env.PORT || 3000;
 const REMARKS = process.env.REMARKS || 'nodejs-vless';
 const WEB_SHELL = process.env.WEB_SHELL || 'off';
